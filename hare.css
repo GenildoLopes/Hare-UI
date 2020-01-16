@@ -58,3 +58,57 @@
 .yellow, .bg-yellow {
     background: #ffc107;
 }
+
+/* Text Colors */
+
+.txt-black {
+    color: #000;
+}
+
+.txt-blue {
+    color: #007bff;
+}
+
+.txt-cyan {
+    color: #17a2b8;
+}
+
+.txt-gray {
+    color: #6c757d;
+}
+
+.txt-green {
+    color: #28a745;
+}
+
+.txt-indigo {
+    color: #6610f2;
+}
+
+.txt-orange {
+    color: #fd7e14;
+}
+
+.txt-pink {
+    color: #e83e8c;
+}
+
+.txt-purple {
+    color: #6f42c1;
+}
+
+.txt-red {
+    color: #dc3545;
+}
+
+.txt-teal {
+    color: #20c997;
+}
+
+.txt-white {
+    color: #fff;
+}
+
+.txt-yellow {
+    color: #ffc107;
+}
