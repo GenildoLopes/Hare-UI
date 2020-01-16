@@ -5,7 +5,9 @@
  * Licensed under MIT
  */
 
- /* Background Colors */
+ /* Lmt 3.300 lines and file of 62 kb */
+
+ /**** Background Colors ****/
 
 .black, .bg-black {
     background: #000;
@@ -59,7 +61,7 @@
     background: #ffc107;
 }
 
-/* Text Colors */
+/**** Text Colors ****/
 
 .txt-black {
     color: #000;
@@ -112,3 +114,65 @@
 .txt-yellow {
     color: #ffc107;
 }
+
+/**** Tipography ****/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+
+/* Headers */
+
+/* Small */
+
+.h1-sm {
+    font-size: 2rem;
+}
+
+.h2-sm {
+    font-size: 1.6rem;
+}
+
+.h3-sm {
+    font-size: 1.4rem;
+}
+
+.h4-sm {
+    font-size: 1.2rem;
+}
+
+.h5-sm {
+    font-size: 1rem;
+}
+
+.h6-sm {
+    font-size: 0.8rem;
+}
+
+/* Large */
+
+.h1-lg {
+    font-size: 2.9rem;
+}
+
+.h2-lg {
+    font-size: 2.5rem;
+}
+
+.h3-lg {
+    font-size: 2.3rem;
+}
+
+.h4-lg {
+    font-size: 2.1rem;
+}
+
+.h5-lg {
+    font-size: 1.9rem;
+}
+
+.h6-lg {
+    font-size: 1.7rem;
+}
+
