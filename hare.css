@@ -4,3 +4,57 @@
  * Open Source Project
  * Licensed under MIT
  */
+
+ /* Background Colors */
+
+.black, .bg-black {
+    background: #000;
+}
+
+.blue, .bg-blue {
+    background: #007bff;
+}
+
+.cyan, .bg-cyan {
+    background: #17a2b8;
+}
+
+.gray, .bg-gray {
+    background: #6c757d;
+}
+
+.green, .bg-green {
+    background: #28a745;
+}
+
+.indigo, .bg-indigo {
+    background: #6610f2;
+}
+
+.orange, .bg-orange{
+    background: #fd7e14;
+}
+
+.pink, .bg-pink {
+    background: #e83e8c;
+}
+
+.purple, .bg-purple {
+    background: #6f42c1;
+}
+
+.red, .bg-red {
+    background: #dc3545;
+}
+
+.teal, .bg-teal {
+    background: #20c997;
+}
+
+.white, .bg-white {
+    background: #fff;
+}
+
+.yellow, .bg-yellow {
+    background: #ffc107;
+}
