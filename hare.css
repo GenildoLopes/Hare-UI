@@ -1,11 +1,11 @@
 /* 
- * Hare CSS v.1.0.0 (https://harecss.com/)
+ * Hare UI v.1.0 (https://harecss.com/)
  * Copyright 2020
  * Open Source Project
  * Licensed under MIT
  */
 
- /* Lmt 3.300 lines and file of 62 kb */
+ /* Min. 3.000 Lmt 3.300 lines and file of 62 kb */
 
  /**** Background Colors ****/
 
@@ -119,7 +119,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 /* Headers */
@@ -176,3 +176,718 @@ body {
     font-size: 1.7rem;
 }
 
+/**** Layout ****/
+
+/*** Flexbox ***/
+
+.flex {
+    display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.no-wrap {
+    flex-wrap: nowrap;
+}
+
+/** Flex Content **/
+
+/* Flex Direction */
+
+.flex-row {
+    flex-direction: row;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.column-reverse {
+    flex-direction: column-reverse;
+}
+
+/* Justify Content */
+
+.jc-start {
+    justify-content: flex-start;
+}
+
+.jc-end {
+    justify-content: end;
+}
+
+.jc-center {
+    justify-content: center;
+}
+
+.jc-between {
+    justify-content: space-between;
+}
+
+.jc-around {
+    justify-content: space-around;
+}
+
+/* Align Items */
+
+.ai-start {
+    align-items: flex-start;
+}
+
+.ai-end {
+    align-items: flex-end;
+}
+
+.ai-center {
+    align-items: center;
+}
+
+.ai-baseline {
+    align-items: baseline;
+}
+
+.ai-stretch {
+    align-items: stretch;
+}
+
+/* Align Content */
+
+.ac-start {
+    align-content: flex-start;
+}
+
+.ac-end {
+    align-content: flex-end;
+}
+
+.ac-center {
+    align-content: center;
+}
+
+.ac-between {
+    align-content: space-between;
+}
+
+.ac-around {
+    align-content: space-around;
+}
+
+.ac-stretch {
+    align-content: stretch;
+}
+
+/** Flex Items **/
+
+.as-auto {
+    align-self: auto;
+}
+
+.as-start {
+    align-self: flex-start;
+}
+
+.as-end {
+    align-self: flex-end;
+}
+
+.as-center {
+    align-self: center;
+}
+
+.as-baseline {
+    align-self: baseline;
+}
+
+.as-stretch {
+    align-self: stretch;
+}
+
+.box {
+    padding: 0.5rem;
+}
+
+/* Display */
+
+.d-none {
+    display: none;
+}
+
+.d-block {
+    display: block;
+}
+
+@media (max-width: 576px) {
+
+    .d-none-sm {
+        display: none;
+    }
+
+    .d-block-sm {
+        display: block;
+    }
+
+}
+
+@media (min-width: 577px) and (max-width: 991px) {
+
+    .d-none-md {
+        display: none;
+    }
+
+    .d-block-md {
+        display: block;
+    }
+
+}
+
+@media (min-width: 991px) {
+
+    .d-none-lg {
+        display: none;
+    }
+
+    .d-block-lg {
+        display: block;
+    }
+
+}
+
+/* Columns */
+
+/* Mobile */
+
+@media (max-width: 576px) {
+
+    .col, .col-1 {
+        padding: 0.4rem;
+        width: 16.66%;
+    }
+    
+    .col-2 {
+        padding: 0.4rem;
+        width: 33.33%;
+    }
+    
+    .col-3 {
+        padding: 0.4rem;
+        width: 50%;
+    }
+    
+    .col-4 {
+        padding: 0.4rem;
+        width: 66.66%;
+    }
+    
+    .col-5 {
+        padding: 0.4rem;
+        width: 83.33%;
+    }
+    
+    .col-6 {
+        padding: 0.4rem;
+        width: 100%;
+    }
+
+}
+
+/* Medium and Large */
+
+@media (min-width: 577px) {
+
+    .col, .col-1 {
+        padding: 0.4rem;
+        width: 8.33%;
+    }
+    
+    .col-2 {
+        padding: 0.4rem;
+        width: 16.66%;
+    }
+    
+    .col-3 {
+        padding: 0.4rem;
+        width: 25%;
+    }
+    
+    .col-4 {
+        padding: 0.4rem;
+        width: 33.33%;
+    }
+    
+    .col-5 {
+        padding: 0.4rem;
+        width: 41.66%;
+    }
+    
+    .col-6 {
+        padding: 0.4rem;
+        width: 50%;
+    }
+    
+    .col-7 {
+        padding: 0.4rem;
+        width: 58.33%;
+    }
+    
+    .col-8 {
+        padding: 0.4rem;
+        width: 66.66%;
+    }
+    
+    .col-9 {
+        padding: 0.4rem;
+        width: 75%;
+    }
+    
+    .col-10 {
+        padding: 0.4rem;
+        width: 83.33%;
+    }
+    
+    .col-11 {
+        padding: 0.4rem;
+        width: 91.66%;
+    }
+    
+    .col-12 {
+        padding: 0.4rem;
+        width: 100%;
+    }
+
+}
+
+/**** Spaces ****/
+
+/*** Margins ***/
+
+.m-0 {
+    margin: 0;
+}
+
+.m-1r {
+    margin: 1rem;
+}
+
+.m-2r {
+    margin: 2rem;
+}
+
+.m-3r {
+    margin: 3rem;
+}
+
+.m-4r {
+    margin: 4rem;
+}
+
+.m-5r {
+    margin: 5rem;
+}
+
+/** Margin Top **/
+
+.mt-0 {
+    margin-top: 0;
+}
+
+.mt-1r {
+    margin-top: 1rem;
+}
+
+.mt-2r {
+    margin-top: 2rem;
+}
+
+.mt-3r {
+    margin-top: 3rem;
+}
+
+.mt-4r {
+    margin-top: 4rem;
+}
+
+.mt-5r {
+    margin-top: 5rem;
+}
+
+/** Margin Right **/
+
+.mr-0 {
+    margin-right: 0;
+}
+
+.mr-1r {
+    margin-right: 1rem;
+}
+
+.mr-2r {
+    margin-right: 2rem;
+}
+
+.mr-3r {
+    margin-right: 3rem;
+}
+
+.mr-4r {
+    margin-right: 4rem;
+}
+
+.mr-5r {
+    margin-right: 5rem;
+}
+
+/* Margin Bottom */
+
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.mb-1r {
+    margin-bottom: 1rem;
+}
+
+.mb-2r {
+    margin-bottom: 2rem;
+}
+
+.mb-3r {
+    margin-bottom: 3rem;
+}
+
+.mb-4r {
+    margin-bottom: 4rem;
+}
+
+.mb-5r {
+    margin-bottom: 5rem;
+}
+
+/* Margin Left */
+
+.ml-0 {
+    margin-left: 0;
+}
+
+.ml-1r {
+    margin-left: 1rem;
+}
+
+.ml-2r {
+    margin-left: 2rem;
+}
+
+.ml-3r {
+    margin-left: 3rem;
+}
+
+.ml-4r {
+    margin-left: 4rem;
+}
+
+.ml-5r {
+    margin-left: 5rem;
+}
+
+/* Padding */
+
+.p-0 {
+    padding: 0;
+}
+
+.p-1r {
+    padding: 1rem;
+}
+
+.p-2r {
+    padding: 2rem;
+}
+
+.p-3r {
+    padding: 3rem;
+}
+
+.p-4r {
+    padding: 4rem;
+}
+
+.p-5r {
+    padding: 5rem;
+}
+
+/* Padding Top */
+
+.pt-0 {
+    padding-top: 0;
+}
+
+.pt-1r {
+    padding-top: 1rem;
+}
+
+.pt-2r {
+    padding-top: 2rem;
+}
+
+.pt-3r {
+    padding-top: 3rem;
+}
+
+.pt-4r {
+    padding-top: 4rem;
+}
+
+.pt-5r {
+    padding-top: 5rem;
+}
+
+/* Padding Right */
+
+.pr-0 {
+    padding: 0;
+}
+
+.pr-1r {
+    padding-right: 1rem;
+}
+
+.pr-2r {
+    padding-right: 2rem;
+}
+
+.pr-3r {
+    padding-right: 3rem;
+}
+
+.pr-4r {
+    padding-right: 4rem;
+}
+
+.pr-5r {
+    padding-right: 5rem;
+}
+
+/* Padding Bottom */
+
+.pb-0 {
+    padding-bottom: 0;
+}
+
+.pb-1r {
+    padding-bottom: 1rem;
+}
+
+.pb-2r {
+    padding-bottom: 2rem;
+}
+
+.pb-3r {
+    padding-bottom: 3rem;
+}
+
+.pb-4r {
+    padding-bottom: 4rem;
+}
+
+.pb-5r {
+    padding-bottom: 5rem;
+}
+
+/* Padding Left */
+
+.pl-0 {
+    padding-left: 0;
+}
+
+.pl-1r {
+    padding-left: 1rem;
+}
+
+.pl-2r {
+    padding-left: 2rem;
+}
+
+.pl-3r {
+    padding-left: 3rem;
+}
+
+.pl-4r {
+    padding-left: 4rem;
+}
+
+.pl-5r {
+    padding-left: 5rem;
+}
+
+/** Width **/
+
+.w-10 {
+	width: 10%;
+}
+
+.w-20 {
+	width: 20%;
+}
+
+.w-30 {
+	width: 30%;
+}
+
+.w-40 {
+	width: 40%;
+}
+
+.w-50 {
+	width: 50%;
+}
+
+.w-60 {
+	width: 60%;
+}
+
+.w-70 {
+	width: 70%;
+}
+
+.w-80 {
+	width: 80%;
+}
+
+.w-90 {
+	width: 90%;
+}
+
+.w-100 {
+	width: 100%;
+}
+
+/* Height */
+
+.h-10 {
+    height: 10%;
+}
+
+.h-20 {
+    height: 20%;
+}
+
+.h-30 {
+    height: 30%;
+}
+
+.h-40 {
+    height: 40%;
+}
+
+.h-50 {
+    height: 50%;
+}
+
+.h-60 {
+    height: 60%;
+}
+
+.h-70 {
+    height: 70%;
+}
+
+.h-80 {
+    height: 80%;
+}
+
+.h-90 {
+    height: 90%;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+/**** Buttons ****/
+
+.btn {
+    border-radius: 0.5rem;
+    border: 1px solid gray;
+    color: #fff;
+    cursor: pointer;
+    line-height: 1.5;    
+    padding: 0.3rem 0.9rem;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+/*** Colors ***/
+
+.btn-black {
+    background: #000;
+}
+
+.btn-blue {
+    background: #007bff;
+}
+
+.btn-cyan {
+    background: #17a2b8;
+}
+
+.btn-gray {
+    background: #6c757d;
+}
+
+.btn-green {
+    background: #28a745;
+}
+
+.btn-indigo {
+    background: #6610f2;
+}
+
+.btn-orange {
+    background: #fd7e14;
+}
+
+.btn-pink {
+    background: #e83e8c;
+}
+
+.btn-purple {
+    background: #6f42c1;
+}
+
+.btn-red {
+    background: #dc3545;
+}
+
+.btn-yellow {
+    background: #ffc107;
+}
+
+.btn-teal {
+    background: #20c997;
+}
+
+.btn-white {
+    background: #fff;
+    color: #232425;
+}
+
+/*** Sizes ***/
+
+.btn-sm {
+    font-size: .95rem;
+    line-height: 1;
+    padding: .35rem .55rem;
+}
+
+.btn-lg {
+    font-size: 1.75rem;
+    line-height: 1;
+    padding: .65rem .85rem;
+}
