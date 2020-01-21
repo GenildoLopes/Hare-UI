@@ -1,0 +1,544 @@
+/** Hare CSS 1.0.0
+    Colors Plus Pallete
+    130 Tones
+**/
+
+/* Red Colors */
+
+.indian-red {
+    background: indianred;
+}
+
+.light-coral {
+    background: lightcoral;
+}
+
+.salmon {
+    background: salmon;
+}
+
+.dark-salmon {
+    background: darksalmon;
+}
+
+.light-salmon {
+    background: lightsalmon;
+}
+
+.crimson {
+    background: crimson;
+}
+
+.fire-brick {
+    background: firebrick;
+}
+
+.dark-red {
+    background: darkred;
+}
+
+/* Pink */
+
+.light-pink {
+    background: lightpink;
+}
+
+.hot-pink {
+    background: hotpink;
+}
+
+.deep-pink {
+    background: deeppink;
+}
+
+.medium-violet-red {
+    background: mediumvioletred;
+}
+
+.pale-violet-red {
+    background: palevioletred;
+}
+
+/* Orange */
+
+.coral {
+    background: coral;
+}
+
+.tomato {
+    background: tomato;
+}
+
+.orange-red {
+    background: orangered;
+}
+
+.dark-orange {
+    background: darkorange;
+}
+
+/* Yellow */
+
+.gold {
+    background: gold;
+}
+
+.golden-rod {
+    background: goldenrod;
+}
+
+.light-yellow {
+    background: lightyellow;
+}
+
+.lemon-chiffon {
+    background: lemonchiffon;
+}
+
+.light-golden-rod-yellow {
+    background: lightgoldenrodyellow;
+}
+
+.papaya-whip {
+    background: papayawhip;
+}
+
+.mocca-sin {
+    background: moccasin;
+}
+
+.peach-puff {
+    background: peachpuff;
+}
+
+.pale-golden-rod {
+    background: palegoldenrod;
+}
+
+.khaki {
+    background: khaki;
+}
+
+.dark-khaki {
+    background: darkkhaki;
+}
+
+/* Purple */
+
+.lavender {
+    background: lavender;
+}
+
+.thistle {
+    background: thistle;
+}
+
+.plum {
+    background: plum;
+}
+
+.violet {
+    background: violet;
+}
+
+.orchid {
+    background: orchid;
+}
+
+.fuchsia {
+    background: fuchsia;
+}
+
+.magenta {
+    background: magenta;
+}
+
+.medium-orchid {
+    background: mediumorchid;
+}
+
+.medium-purple {
+    background: mediumpurple;
+}
+
+.rebecca-purple {
+    background: rebeccapurple;
+}
+
+.blue-violet {
+    background: blueviolet;
+}
+
+.dark-violet {
+    background: darkviolet;
+}
+
+.dark-orchid {
+    background: darkorchid;
+}
+
+.dark-magenta {
+    background: darkmagenta;
+}
+
+.slate-blue {
+    background: slateblue;
+}
+
+.medium-slate-blue {
+    background: mediumslateblue;
+}
+
+.dark-slate-blue {
+    background: darkslateblue;
+}
+
+/* Green */
+
+.green-yellow {
+    background: greenyellow;
+}
+
+.chart-reuse {
+    background: chartreuse;
+}
+
+.lawn-green {
+    background: lawngreen;
+}
+
+.lime {
+    background: lime;
+}
+
+.lime-green {
+    background: limegreen;
+}
+
+.pale-green {
+    background: palegreen;
+}
+
+.light-green {
+    background: lightgreen;
+}
+
+.spring-green {
+    background: springgreen;
+}
+
+.medium-spring-green {
+    background: mediumspringgreen;
+}
+
+.light-sea-green {
+    background: lightseagreen;
+}
+
+.sea-green {
+    background: seagreen;
+}
+
+.medium-sea-green {
+    background: mediumseagreen;
+}
+
+.dark-sea-green {
+    background: darkseagreen;
+}
+
+.forest-green {
+    background: forestgreen;
+}
+
+.dark-green {
+    background: darkgreen;
+}
+
+.yellow-green {
+    background: yellowgreen;
+}
+
+.olive {
+    background: olive;
+}
+
+.olive-drab {
+    background: olivedrab;
+}
+
+.dark-olive-green {
+    background: darkolivegreen;
+}
+
+.medium-aqua-marine {
+    background: mediumaquamarine;
+}
+
+.dark-cyan {
+    background: darkcyan;
+}
+
+/* Blue */
+
+.aqua {
+    background: aqua;
+}
+
+.aqua-marine {
+    background: aquamarine;
+}
+
+.light-cyan {
+    background: lightcyan;
+}
+
+.pale-turquoise {
+    background: paleturquoise;
+}
+
+.turquoise {
+    background: turquoise;
+}
+
+.medium-turquoise {
+    background: mediumturquoise;
+}
+
+.dark-turquoise {
+    background: darkturquoise;
+}
+
+.cadet-blue {
+    background: cadetblue;
+}
+
+.light-steel-blue {
+    background: lightsteelblue;
+}
+
+.steel-blue {
+    background: steelblue;
+}
+
+.powder-blue {
+    background: powderblue;
+}
+
+.light-blue {
+    background: lightblue;
+}
+
+.light-sky-blue {
+    background: lightskyblue;
+}
+
+.sky-blue {
+    background: skyblue;
+}
+
+.deep-sky-blue {
+    background: deepskyblue;
+}
+
+.dodger-blue {
+    background: dodgerblue;
+}
+
+.corn-flower-blue {
+    background: cornflowerblue;
+}
+
+.medium-slate-blue {
+    background: mediumslateblue;
+}
+
+.royal-blue {
+    background: royalblue;
+}
+
+.medium-blue {
+    background: mediumblue;
+}
+
+.dark-blue {
+    background: darkblue;
+}
+
+.navy {
+    background: navy;
+}
+
+.mid-night-blue {
+    background: midnightblue;
+}
+
+/* Brown */
+
+.corn-silk {
+    background: cornsilk;
+}
+
+.blanche-dalmond {
+    background: blanchedalmond;
+}
+
+.bisque {
+    background: bisque;
+}
+
+.navajo-white {
+    background: navajowhite;
+}
+
+.wheat {
+    background: wheat;
+}
+
+.burly-wood {
+    background: burlywood;
+}
+
+.tan {
+    background: tan;
+}
+
+.rosy-brown {
+    background: rosybrown;
+}
+
+.sandy-brown {
+    background: sandybrown;
+}
+
+.golden-rod {
+    background: goldenrod;
+}
+
+.dark-golden-rod {
+    background: darkgoldenrod;
+}
+
+.peru {
+    background: peru;
+}
+
+.chocolate {
+    background: chocolate;
+}
+
+.saddle-brown {
+    background: saddlebrown;
+}
+
+.sienna {
+    background: sienna;
+}
+
+.brown {
+    background: brown;
+}
+
+.maroon {
+    background: maroon;
+}
+
+/* White */
+
+.snow {
+    background: snow;
+}
+
+.honey-dew {
+    background: honeydew;
+}
+
+.mint-cream {
+    background: mintcream;
+}
+
+.azure {
+    background: azure;
+}
+
+.alice-blue {
+    background: aliceblue;
+}
+
+.ghost-white {
+    background: ghostwhite;
+}
+
+.white-smoke {
+    background: whitesmoke;
+}
+
+.sea-shell {
+    background: seashell;
+}
+
+.beige {
+    background: beige;
+}
+
+.old-lace {
+    background: oldlace;
+}
+
+.floral-white {
+    background: floralwhite;
+}
+
+.ivory {
+    background: ivory;
+}
+
+.antique-white {
+    background: antiquewhite;
+}
+
+.linen {
+    background: linen;
+}
+
+.lavander-blush {
+    background: lavenderblush;
+}
+
+.misty-rose {
+    background: mistyrose;
+}
+
+/* Gray */
+
+.gains-boro {
+    background: gainsboro;
+}
+
+.light-gray {
+    background: lightgray;
+}
+
+.silver {
+    background: silver;
+}
+
+.dark-gray {
+    background: darkgray;
+}
+
+.dim-gray {
+    background: dimgray;
+}
+
+.light-slate-gray {
+    background: lightslategray;
+}
+
+.slate-gray {
+    background: slategray;
+}
+
+.dark-slate-gray {
+    background: darkslategray;
+}

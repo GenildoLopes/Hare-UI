@@ -808,6 +808,44 @@ body {
     height: 100%;
 } */
 
+/**** Positions ****/
+
+.absolute {
+    position: absolute !important;
+}
+
+.relative {
+    position: relative !important;
+}
+
+.fixed {
+    position: fixed !important;
+}
+
+.sticky {
+    position: sticky !important;
+}
+
+.static {
+    position: static !important;
+}
+
+.top-0 {
+    top: 0;
+}
+
+.right-0 {
+    right: 0;
+}
+
+.bottom-0 {
+    bottom: 0;
+}
+
+.left-0 {
+    left: 0;
+}
+
 /**** Buttons ****/
 
 .btn {
@@ -1004,6 +1042,17 @@ body {
     justify-content: space-between;
     align-items: center;
     position: relative;
+}
+
+.nav-fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nav-sticky {
+    position: sticky;
+    width: 100%;
 }
 
 .nav-brand {
