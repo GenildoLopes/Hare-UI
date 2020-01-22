@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tables</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="hare.css">
+    <link rel="stylesheet" href="hare-colors.css">
+
+    <style>
+
+        table {
+            margin: 1.4rem;
+            width: 90%;
+        }
+
+        caption {
+            font-size: 2rem;
+            margin: 1rem;
+            color: darkblue;
+            text-shadow: 1px 1px 1px whitesmoke;
+        }
+
+        th {
+            text-align: left;
+        }
+
+        table, td, th {
+            border: 1px solid gray;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 8px;
+        }
+
+        tr:nth-child(even){
+            background: #ddd;
+        }
+
+        tr:nth-child(odd){
+            background: rgb(63, 60, 60);
+            color: whitesmoke;
+        }
+
+    </style>
+
+</head>
+<body class="azure flex jc-center">
+    
+    <table>
+        <caption>Usuários</caption>
+        <!-- THeaders -->
+        <tr>
+            <th>Nome</th>
+            <th>Email</th>
+            <th>Cidade</th>
+            <th>Idade</th>
+        </tr>
+        <!-- TDates -->
+        <tr>
+            <td>Jonh</td>
+            <td>jonh12@gmail.com</td>
+            <td>Ipú</td>
+            <td>21</td>
+        </tr>
+        
+        <tr>
+            <td>Oliver</td>
+            <td>oliver10@gmail.com</td>
+            <td>Salto</td>
+            <td>34</td>
+        </tr>
+
+        <tr>
+            <td>Igor</td>
+            <td>igor21@gmail.com</td>
+            <td>São Paulo</td>
+            <td>18</td>
+        </tr>
+
+        <tr>
+            <td>Kauana</td>
+            <td>kauana22@gmail.com</td>
+            <td>Sobral</td>
+            <td>27</td>
+        </tr>
+
+    </table>
+
+
+
+</body>
+</html>
