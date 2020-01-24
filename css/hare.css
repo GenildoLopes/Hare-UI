@@ -61,6 +61,14 @@
     background: #ffc107;
 }
 
+.bg-inherit {
+    background: inherit;
+}
+
+.bg-none {
+    background: none;
+}
+
 /**** Colors ****/
 
 .txt-black {
@@ -118,8 +126,59 @@
 /**** Tipography ****/
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 1.1rem;
+    font-weight: 600;
+}
+
+/*** Font Family ***/
+
+.arial {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.times-new-roman {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.helvetica {
+    font-family: Helvetica, sans-serif;
+}
+
+.verdana {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.courier {
+    font-family: Courier, monospace;
+}
+
+.arial-narrow {
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+.geneva {
+    font-family: Geneva, Tahoma, sans-serif;
+}
+
+.calibri {
+    font-family:  Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cambria {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.monaco {
+    font-family: monaco, monospace;
+}
+
+.didot {
+    font-family: didot, serif;
+}
+
+.brush-script {
+    font-family: 'Brush Script MT', cursive;
 }
 
 /*** Headers ***/
@@ -224,6 +283,16 @@ body {
 
 .fs-oblique {
     font-style: oblique;
+}
+
+/*** Text Shadow ***/
+
+.txt-shadow {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+.txt-shadow-white {
+    text-shadow: 1px 1px 1px rgba(255, 255, 255);
 }
 
 /**** Layout ****/
@@ -367,6 +436,14 @@ body {
 
 .d-none {
     display: none;
+}
+
+.d-inline {
+    display: inline;
+}
+
+.d-inline-block {
+    display: inline-block;
 }
 
 .d-block {
@@ -1078,16 +1155,30 @@ body {
     justify-content: center;
     position: absolute;
     top: 10px;
-    right: 1rem;
-    transition: all .5s ease-in-out;
-    border: 2px solid white;
+    right: 1.2rem;
+    background: transparent;
 }
 
-.btn-burger {
+#open-menu {
     cursor: pointer;
+    height: 36px;
 }
 
-.navbox-list ul {
+#close-menu {
+    cursor: pointer;
+    display: none;
+    height: 30px;
+    margin: 4px;
+}
+
+/* .btn-burger {
+    cursor: pointer;
+    border: none;
+} */
+
+/* NavBox List */
+
+.nav-list ul {
     display: flex;
 }
 
@@ -1108,14 +1199,34 @@ body {
     text-decoration: underline;
 }
 
+/** Menu Mobile **/
+
 @media (max-width: 576px){
 
     .navbox {
-        min-height: 50px;
+        min-height: 52px;
         padding: 0;
     }
 
-    .navbox-list {
+    /* NavBox List */
+
+    .nav-list {
+        background: inherit;
+        position: absolute;
+        top: 2.7rem;
+        right: 0;
+        width: 100%;
+        height: 100vh;
+        transition: all .8s;
+    }
+
+    .nav-list ul {
+        display: block;
+        line-height: 3;
+        text-align: center;
+    }
+
+    .nav-list {
         display: none;
     }
 
@@ -1127,4 +1238,83 @@ body {
         display: none;
     }
 
+}
+
+/**** Table ****/
+
+table {
+    border-collapse: collapse;
+    margin: 1.4rem;
+    width: 90%;
+}
+
+table th {
+    background: #eee;
+    border: 1px solid gray;
+}
+
+table td {
+    background: #fff;
+    border: 1px solid gray;
+}
+
+caption {
+    font-size: 2rem;
+    margin: 1rem;
+    color: white;
+}
+
+th, td {
+    padding: 9px;
+}
+
+th {
+    text-align: left;
+}
+
+/*** Table Dark ***/
+
+.table-dark {
+    color: whitesmoke;
+}
+
+.table-dark th {
+    background: #333;
+    border: 1px solid whitesmoke;
+}
+
+.table-dark td {
+    background: #444;
+    border: 1px solid whitesmoke;
+}
+
+/*** Striped ***/
+
+.striped tbody tr:nth-child(odd){
+    background: gainsboro;
+}
+
+.striped tbody tr:nth-child(even){
+    background: white;
+}
+
+.striped thead tr {
+    background: white;
+}
+
+/** Striped Invert **/
+
+.striped-invert tbody tr:nth-child(odd){
+    background: white;
+    color: black;
+}
+
+.striped-invert tbody tr:nth-child(even){
+    background: gainsboro;
+
+}
+
+.striped-invert thead tr {
+    background: gainsboro;
+    color: black;
 }
