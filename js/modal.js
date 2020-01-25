@@ -1,39 +1,43 @@
-// Hare JS
-// v.1.0.0
+const openModalButtons = document.querySelectorAll('[data-modal-target]')
+const closeModalButtons = document.querySelectorAll('[data-close-button]')
+const overlay = document.getElementById('overlay')
 
-// MODAL
+openModalButtons.forEach(button => {
+  button.addEventListener('click', () => {
+    const modal = document.querySelector(button.dataset.modalTarget)
+    openModal(modal)
+  })
+})
 
-// Open
-var boxModal = document.getElementById('modal');
+overlay.addEventListener('click', () => {
+  const modals = document.querySelectorAll('.modal.active')
+  modals.forEach(modal => {
+    closeModal(modal)
+  })
+})
 
-var btnOpenModal = document.getElementById('open-modal');
-btnOpenModal.addEventListener('click', openModal);
+closeModalButtons.forEach(button => {
+  button.addEventListener('click', () => {
+    const modal = button.closest('.modal')
+    closeModal(modal)
+  })
+})
 
-var bodyDoc = document.getElementsByTagName('body');
+function openModal(modal) {
+  if (modal == null) return
+  modal.classList.add('active')
+  overlay.classList.add('active')
+}
 
-console.log(bodyDoc);
-
-
-function openModal(){
-
-    boxModal.style.display = 'block';
-    bodyDoc.addClassList('darkness');
-
-};
-
-// Close
-var btnCloseModal = document.getElementById('close-modal');
-btnCloseModal.addEventListener('click', closeModal);
-
-var cancelModal = document.getElementById('cancel-modal');
-cancelModal.addEventListener('click', closeModal);
+function closeModal(modal) {
+  if (modal == null) return
+  modal.classList.remove('active')
+  overlay.classList.remove('active')
+}
 
 
-function closeModal(){
 
-    boxModal.style.display = 'none';
 
-};
 
 
 

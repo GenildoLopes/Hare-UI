@@ -1327,15 +1327,22 @@ th {
 
 
 .modal {
-    position: absolute;
-    top: 5%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
     display: flex;
     flex-direction: column;
     min-height: 200px;
-    max-width: 62vh;
+    max-width: 64vh;
     background: whitesmoke;
     border-radius: 12px;
-    display: none;
+    z-index: 409;
+}
+
+.modal.active {
+    transform: translate(-50%, -50%) scale(1);
 }
 
 .modal-head {
@@ -1376,10 +1383,22 @@ th {
     cursor: pointer;
 }
 
-/* Darkness Body*/
+/* Overlay */
+#overlay {
+    position: fixed;
+    opacity: 0;
+    transition: 200ms ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(26, 25, 25, 0.6);
+    pointer-events: none;
+}
 
-.darkness {
-    opacity: .65;
+#overlay.active {
+    opacity: 1;
+    pointer-events: all;
 }
 
 /* Modal Mobile */
@@ -1390,3 +1409,19 @@ th {
     }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

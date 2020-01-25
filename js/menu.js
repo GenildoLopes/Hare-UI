@@ -1,15 +1,15 @@
 // MENU
 
-var btnOpen = document.getElementById('open-menu');
+const btnOpen = document.getElementById('open-menu');
 btnOpen.addEventListener('click', openMenu);
 
-var btnClose = document.getElementById('close-menu');
+const btnClose = document.getElementById('close-menu');
 btnClose.addEventListener('click', closeMenu);
 
-var brand = document.getElementById('brand');
+const brand = document.getElementById('brand');
 
-var list = document.getElementById('list');
-var listUl = document.getElementsByTagName('nav');
+const list = document.getElementById('list');
+const listUl = document.getElementsByTagName('nav');
 
 function openMenu() {
 

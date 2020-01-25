@@ -19,22 +19,26 @@
 
     <!-- Icons -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <script defer src="../js/modal.js"></script>
 </head>
-<body class="gray">
+<body>
     <!-- Navbar -->
     <nav class="navbox nav-fixed cyan">
         <!-- Brand -->
         <a href="#" class="nav-brand" id="brand">Modal</a>
-        <!-- Btn -->
-            <img src="../imgs/menu.png" id="open-modal" alt="">
+
+        <!-- Btn Open Modal -->
+        <button data-modal-target="#modal" class="btn blue" id="open-modal">Open Modal</button>
+        
+        <!-- <img src="../imgs/menu.png" data-target="#modal"> -->
+
     </nav>
     <div class="box mt-2">
         <p class="txt-gray fz-2 d-none">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi animi suscipit corporis architecto, saepe eum, aut eligendi accusantium atque doloribus rem magnam expedita sint natus nihil quo quis omnis. Tempore!
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. A, sint. In, aliquam repudiandae qui temporibus voluptatibus fuga numquam eaque voluptatum ex corporis ullam asperiores perspiciatis quis, a fugit nostrum quod?
             Iste, odio repudiandae totam nesciunt illo maiores ut itaque dignissimos magni doloremque eius quibusdam sapiente rerum sunt nihil ratione vitae nobis similique. Incidunt iusto eos cum! Repellendus voluptatem fuga repellat?
-            Ducimus officia magni officiis corrupti asperiores delectus temporibus aperiam? Nemo accusantium minus amet impedit adipisci sed ullam quasi vitae rem eveniet praesentium voluptatibus, magnam libero culpa dolores nobis pariatur ipsam.
-            Recusandae illum earum sequi nostrum quisquam quidem quas temporibus explicabo, similique minus repudiandae distinctio placeat doloremque saepe dignissimos perferendis voluptas voluptates architecto reiciendis neque! Numquam nemo dolor velit libero corporis.
         </p>
     </div>
 
@@ -42,28 +46,26 @@
     <div class="modal" id="modal">
         <div class="modal-head">
             <span>Title</span>
-            <!-- Btn Close -->
-            <img src="../imgs/close.png" id="close-modal" alt="">
+
+            <!-- Btn Close Modal -->
+            <img src="../imgs/close.png" id="close-modal" alt="" data-close-button>
+
         </div>
 
         <div class="modal-body">
         <!-- ... Content -->
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo assumenda amet accusamus quod aut magnam distinctio id vitae. Reprehenderit voluptas sapiente dicta incidunt ipsum atque, at non corporis nulla ullam!
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur illum error minima ducimus officiis quam reiciendis in ipsam. Asperiores, veritatis quo dolorem ipsam beatae quia. Asperiores temporibus repellendus repudiandae voluptas.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur illum error minima ducimus officiis quam reiciendi.
         </div>
     
         <div class="modal-foot">
-            <button class="btn red" id="cancel-modal">Cancel</button>
+            <button class="btn red" id="cancel-modal" data-close-button>Cancel</button>
             <button class="btn green" type="submit">Save</button>
-
         </div>
     </div>
 
-
-    <!-- JS -->
-    <script src="../js/modal.js"></script>
-    <script src="../js/menu.js"></script>
-
+    <!-- Overlay -->
+    <div id="overlay"></div>
 
 </body>
 </html>
