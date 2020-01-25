@@ -1,7 +1,4 @@
-// Hare JS
-// v.1.0.0
-
-// Menu
+// MENU
 
 var btnOpen = document.getElementById('open-menu');
 btnOpen.addEventListener('click', openMenu);
@@ -12,7 +9,7 @@ btnClose.addEventListener('click', closeMenu);
 var brand = document.getElementById('brand');
 
 var list = document.getElementById('list');
-// var listUl = document.getElementsByTagName('nav');
+var listUl = document.getElementsByTagName('nav');
 
 function openMenu() {
 
@@ -20,9 +17,6 @@ function openMenu() {
     btnOpen.style.display = 'none';
     btnClose.style.display = 'block';
     brand.style.display = 'none';
-
-    // listUl.style.transition = 'all, 2000ms';
-
 };
 
 function closeMenu() {
@@ -33,13 +27,3 @@ function closeMenu() {
     brand.style.display = 'block';
 
 };
-
-
-
-
-
-
-
-
-
-

@@ -939,8 +939,12 @@ body {
     border: 1px solid rgba(128, 128, 128, 0.5);
     color: #fff;
     cursor: pointer;
-    line-height: 1.5;    
-    padding: 0.2rem 0.8rem;
+    line-height: 1.4;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 0.2rem 0.7rem;
+    margin: .4rem;
     transition: all 200ms ease-in-out;
 }
 
@@ -1201,7 +1205,7 @@ body {
 
 /** Menu Mobile **/
 
-@media (max-width: 576px){
+@media (max-width: 768px){
 
     .navbox {
         min-height: 52px;
@@ -1232,7 +1236,7 @@ body {
 
 }
 
-@media (min-width: 576.9px){
+@media (min-width: 768.1px){
 
     .box-burger {
         display: none;
@@ -1317,4 +1321,72 @@ th {
 .striped-invert thead tr {
     background: gainsboro;
     color: black;
+}
+
+/**** Modal ****/
+
+
+.modal {
+    position: absolute;
+    top: 5%;
+    display: flex;
+    flex-direction: column;
+    min-height: 200px;
+    max-width: 62vh;
+    background: whitesmoke;
+    border-radius: 12px;
+    display: none;
+}
+
+.modal-head {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2rem;
+}
+
+.modal-head span {
+    font-size: 1.7rem;
+    color: rgb(77, 75, 75);
+}
+
+.modal-body {
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+}
+
+.modal-foot {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem ;
+    
+}
+
+#open-modal {
+    position: absolute;
+    right: 20px;
+    height: 34px;
+    cursor: pointer;
+}
+
+#close-modal {
+    position: relative;
+    filter: invert(90%);
+    height: 26px;
+    width: 26px;
+    cursor: pointer;
+}
+
+/* Darkness Body*/
+
+.darkness {
+    opacity: .65;
+}
+
+/* Modal Mobile */
+@media (max-width: 576px) {
+
+    .modal {
+        width: 99%;
+    }
+
 }
