@@ -13,19 +13,23 @@
     background: black;
 }
 
-.blue, .bg-blue, .btn-blue {
+.blue, .primary, .bg-blue, .btn-blue {
     background: #007bff;
 }
 
-.cyan, .bg-cyan, .btn-cyan {
+.cyan, .info, .bg-cyan, .btn-cyan {
     background: #17a2b8;
 }
 
-.gray, .bg-gray, .btn-gray {
+.dark, .bg-dark, .btn-dark {
+    background: #343a40;
+}
+
+.gray, .secondary, .bg-gray, .btn-gray {
     background: #6c757d;
 }
 
-.green, .bg-green, .btn-green {
+.green, .success, .bg-green, .btn-green {
     background: #28a745;
 }
 
@@ -33,7 +37,11 @@
     background: #6610f2;
 }
 
-.orange, .bg-orange, .btn-orange{
+.light, .bg-light, .btn-light {
+    background: #f8f9fa;
+}
+
+.orange, .bg-orange, .btn-orange {
     background: #fd7e14;
 }
 
@@ -45,7 +53,7 @@
     background: #6f42c1;
 }
 
-.red, .bg-red, .btn-red {
+.red, .danger, .bg-red, .btn-red {
     background: #dc3545;
 }
 
@@ -57,7 +65,7 @@
     background: #fff;
 }
 
-.yellow, .bg-yellow, .btn-yellow {
+.yellow, .warning, .bg-yellow, .btn-yellow {
     background: #ffc107;
 }
 

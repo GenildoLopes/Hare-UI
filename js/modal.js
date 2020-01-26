@@ -36,21 +36,4 @@ function closeModal(modal) {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// Font Code: https://github.com/WebDevSimplified/Vanilla-JavaScript-Modal
