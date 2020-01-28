@@ -6,10 +6,10 @@ btnOpen.addEventListener('click', openMenu);
 const btnClose = document.getElementById('close-menu');
 btnClose.addEventListener('click', closeMenu);
 
-const brand = document.getElementById('brand');
+const brand = document.querySelector('.nav-brand');
 
-const list = document.getElementById('list');
-const listUl = document.getElementsByTagName('nav');
+const list = document.querySelector('.nav-list');
+// const listUl = document.getElementsByTagName('nav');
 
 function openMenu() {
 
