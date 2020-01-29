@@ -1,6 +1,5 @@
 /** Hare CSS 1.0.0
     Colors Plus Pallete
-    130 Tones
 **/
 
 /* Red Colors */
@@ -541,4 +540,38 @@
 
 .dark-slate-gray {
     background: darkslategray;
+}
+
+/* Bootstrap Tones */
+
+.primary .bg-primary .btn-primary {
+    background: #007bff;
+}
+
+.secondary, .bg-secondary, .btn-secondary {
+    background: #6c757d;
+}
+
+.success, .bg-success, .btn-success {
+    background: #28a745;
+}
+
+.info, .bg-info, .btn-info {
+    background: #17a2b8;
+}
+
+.warning, .bg-warning, .btn-warning {
+    background: #ffc107;
+}
+
+.danger, .bg-danger, .btn-danger {
+    background: #dc3545;
+}
+
+.light, .bg-light, .btn-light {
+    background: #f8f9fa;
+}
+
+.dark, .bg-dark, .btn-dark {
+    background: #343a40;
 }

@@ -1,0 +1,12 @@
+--> Plano de Recursos para a vers. 1.1
+
+1. Vers. em SASS
+2. Gradientes
+3. Classes de números no Font Weight
+4. Mais tamanhos de botões
+5. Mais cores de tabelas
+6. Breadcrumb
+7. Collapse
+8. Barras de Progresso
+9. Scrollspy
+10. Popovers

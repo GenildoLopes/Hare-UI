@@ -5,7 +5,7 @@
  * Licensed under MIT
  */
 
- /* Min. 2.800 and Lmt 3.300 lines and file of 62 kb */
+ /* Min. 2.700 and Lmt 3.300 lines and file of 62 kb */
 
  /**** Background Colors ****/
 
@@ -18,7 +18,7 @@
 }
 
 .cyan, .bg-cyan, .btn-cyan {
-    background: #00ffff;
+    background: #1cbbbb;
 }
 
 .gray, .bg-gray, .btn-gray {
@@ -46,7 +46,7 @@
 }
 
 .red, .bg-red, .btn-red {
-    background: #ff0000;
+    background: #df2222;
 }
 
 .teal, .bg-teal, .btn-teal {
@@ -58,10 +58,10 @@
 }
 
 .yellow, .bg-yellow, .btn-yellow {
-    background: #ffff00;
+    background: #e0e00f;
 }
 
-/* Others */
+/* Outhers */
 
 .bg-inherit {
     background: inherit;
@@ -71,41 +71,6 @@
     background: none;
 }
 
-
-/* Bootstrap Tones */
-
-.primary .bg-primary .btn-primary {
-    background: #007bff;
-}
-
-.secondary, .bg-secondary, .btn-secondary {
-    background: #6c757d;
-}
-
-.success, .bg-success, .btn-success {
-    background: #28a745;
-}
-
-.info, .bg-info, .btn-info {
-    background: #17a2b8;
-}
-
-.warning, .bg-warning, .btn-warning {
-    background: #ffc107;
-}
-
-.danger, .bg-danger, .btn-danger {
-    background: #dc3545;
-}
-
-.light, .bg-light, .btn-light {
-    background: #f8f9fa;
-}
-
-.dark, .bg-dark, .btn-dark {
-    background: #343a40;
-}
-
 /**** Colors ****/
 
 .txt-black {
@@ -113,54 +78,155 @@
 }
 
 .txt-blue {
-    color: #007bff;
+    color: blue;
 }
 
 .txt-cyan {
-    color: #17a2b8;
+    color: #1cbbbb;
 }
 
 .txt-gray {
-    color: #6c757d;
+    color: gray;
 }
 
 .txt-green {
-    color: #28a745;
+    color: green;
 }
 
 .txt-indigo {
-    color: #6610f2;
+    color: indigo;
 }
 
 .txt-orange {
-    color: #fd7e14;
+    color: orange;
 }
 
 .txt-pink {
-    color: #e83e8c;
+    color: pink;
 }
 
 .txt-purple {
-    color: #6f42c1;
+    color: purple;
 }
 
 .txt-red {
-    color: #dc3545;
+    color: #df2222;
 }
 
 .txt-teal {
-    color: #20c997;
+    color: teal;
 }
 
 .txt-white {
-    color: #fff;
+    color: white;
 }
 
 .txt-yellow {
-    color: #ffc107;
+    color: #e0e00f;
 }
 
-/**** Tipography ****/
+/*** Borders ***/
+
+.border {
+    border: 1px solid;
+}
+
+.border-blue {
+    border: 1px solid blue;
+}
+
+.border-cyan {
+    border: 1px solid #1cbbbb;
+}
+
+.border-gray {
+    border: 1px solid gray;
+}
+
+.border-green {
+    border: 1px solid green;
+}
+
+.border-indigo {
+    border: 1px solid indigo;
+}
+
+.border-orange {
+    border: 1px solid orange;
+}
+
+.border-pink {
+    border: 1px solid pink;
+}
+
+.border-purple {
+    border: 1px solid purple;
+}
+
+.border-red {
+    border: 1px solid #df2222;
+}
+
+.border-teal {
+    border: 1px solid teal;
+}
+
+.border-white {
+    border: 1px solid white;
+}
+
+.border-yellow {
+    border: 1px solid #e0e00f;
+}
+
+/* Border Position */
+
+.border-top {
+    border-top: 1px solid gray;
+}
+
+.border-right {
+    border-right: 1px solid gray;
+}
+
+.border-bottom {
+    border-bottom: 1px solid gray;
+}
+
+.border-left {
+    border-left: 1px solid gray;
+}
+
+/* Border None */
+
+.border-none {
+    border: none;
+}
+
+/* Border Radius */
+
+.br-1 {
+    border-radius: .5rem;
+}
+
+.br-2 {
+    border-radius: 1rem;
+}
+
+.br-3 {
+    border-radius: 1.5rem;
+}
+
+.br-4 {
+    border-radius: 2rem;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+
+/*** Tipography ***/
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -322,7 +388,30 @@ body {
     font-style: oblique;
 }
 
-/*** Text Shadow ***/
+
+/*** Shadows  ***/
+
+.shadow {
+    box-shadow: .15rem .35rem .9rem rgba(0, 0, 0, 0.2);
+}
+
+.shadow-2 {
+    box-shadow: .2rem .5rem 1.3rem rgba(0, 0, 0, 0.25);
+}
+
+.shadow-3 {
+    box-shadow: .25rem .65rem 1.7rem rgba(0, 0, 0, 0.3);
+}
+
+.shadow-4 {
+    box-shadow: .3rem .8rem 2.1rem rgba(0, 0, 0, 0.35);
+}
+
+.shadow-none {
+    box-shadow: none;
+}
+
+/** Text Shadow **/
 
 .txt-shadow {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
@@ -627,8 +716,6 @@ body {
 
 }
 
-/**** Spaces ****/
-
 /*** Margins ***/
 
 .m-0 {
@@ -931,7 +1018,7 @@ body {
 	width: 100%;
 }
 
-/**** Positions *** */
+/*** Positions ***/
 
 .absolute {
     position: absolute !important;
@@ -969,7 +1056,7 @@ body {
     left: 0;
 }
 
-/**** Buttons ****/
+/*** Buttons ***/
 
 .btn {
     border-radius: 0.5rem;
@@ -1005,129 +1092,129 @@ body {
 }
 
 .btn-out-blue {
-    border-color: #007bff;
+    border-color: blue;
     background: transparent;
-    color: #007bff !important;
+    color: blue !important;
 }
 
 .btn-out-blue:hover {
     border-color: transparent;
-    background: #007bff;
+    background: blue;
     color: white !important;
 }
 
 .btn-out-cyan {
-    border-color: #17a2b8;
+    border-color: #1cbbbb;
     background: transparent;
-    color: #17a2b8 !important;
+    color: #1cbbbb !important;
 }
 
 .btn-out-cyan:hover {
     border-color: transparent;
-    background: #17a2b8;
+    background: #1cbbbb;
     color: white !important;
 }
 
 .btn-out-gray {
-    border-color: #6c757d;
+    border-color: gray;
     background: transparent;
-    color: #6c757d !important;
+    color: gray !important;
 }
 
 .btn-out-gray:hover {
     border-color: transparent;
-    background: #6c757d;
+    background: gray;
     color: white !important;
 }
 
 .btn-out-green {
-    border-color: #28a745;
+    border-color: green;
     background: transparent;
-    color: #28a745 !important;
+    color: green !important;
 }
 
 .btn-out-green:hover {
     border-color: transparent;
-    background: #28a745;
+    background: green;
     color: white !important;
 }
 
 .btn-out-indigo {
-    border-color: #6610f2;
+    border-color: indigo;
     background: transparent;
-    color: #6610f2 !important;
+    color: indigo !important;
 }
 
 .btn-out-indigo:hover {
     border-color: transparent;
-    background: #6610f2;
+    background: indigo;
     color: white !important;
 }
 
 .btn-out-orange {
-    border-color: #fd7e14;
+    border-color: orange;
     background: transparent;
-    color: #fd7e14 !important;
+    color: orange!important;
 }
 
 .btn-out-orange:hover {
     border-color: transparent;
-    background: #fd7e14;
+    background: orange;
     color: white !important;
 }
 
 .btn-out-pink {
-    border-color: #e83e8c;
+    border-color: pink;
     background: transparent;
-    color: #e83e8c !important;
+    color: pink !important;
 }
 
 .btn-out-pink:hover {
     border-color: transparent;
-    background: #e83e8c;
+    background: pink;
     color: white !important;
 }
 
 .btn-out-purple {
-    border-color: #6f42c1;
+    border-color: purple;
     background: transparent;
-    color: #6f42c1 !important;
+    color: purple !important;
 }
 
 .btn-out-purple:hover {
     border-color: transparent;
-    background: #6f42c1;
+    background: purple;
     color: white !important;
 }
 
 .btn-out-red {
-    border-color: #dc3545;
+    border-color: #df2222;
     background: transparent;
-    color: #dc3545 !important;
+    color: #df2222 !important;
 }
 
 .btn-out-red:hover {
     border-color: transparent;
-    background: #dc3545;
+    background: #df2222;
     color: white !important;
 }
 
 .btn-out-teal {
-    border-color: #20c997;
+    border-color: teal;
     background: transparent;
-    color: #20c997 !important;
+    color: teal !important;
 }
 
 .btn-out-teal:hover {
     border-color: transparent;
-    background: #20c997;
+    background: teal;
     color: white !important;
 }
 
 .btn-out-white {
-    border-color: #fff;
+    border-color: white;
     background: transparent;
-    color: #fff !important;
+    color: white !important;
 }
 
 .btn-out-white:hover {
@@ -1137,14 +1224,14 @@ body {
 }
 
 .btn-out-yellow {
-    border-color: #ffc107;
+    border-color: #e0e00f;
     background: transparent;
-    color: #ffc107 !important;
+    color: #e0e00f !important;
 }
 
 .btn-out-yellow:hover {
     border-color: transparent;
-    background: #ffc107;
+    background: #e0e00f;
     color: white !important;
 }
 
@@ -1363,7 +1450,7 @@ th {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(0);
-    transition: 200ms ease-in-out;
+    transition: all 200ms ease;
     display: flex;
     flex-direction: column;
     min-height: 200px;
@@ -1458,3 +1545,5 @@ th {
 .alert span {
     text-shadow: 1px 1px #343a4096;
 }
+
+/* End */
