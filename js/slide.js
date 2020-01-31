@@ -1,48 +1,56 @@
 // Hare UI v.1.0.0
-
 // Slide Show
 
-const boxSlide = document.querySelector('.box-slide')
+const carouselSlide = document.querySelector('.carousel-slide')
+const carouselImages = document.querySelectorAll('.carousel-slide img')
 
+// Buttons
 const btnPrev = document.querySelector('#btn-prev')
 const btnNext = document.querySelector('#btn-next')
 
-btnPrev.addEventListener('click', prevImg)
-btnNext.addEventListener('click', nextImg)
+// Count
+let count = 1
+const size = carouselImages[0].clientWidth
 
-var i = 0
-var images = []
+carouselSlide.style.transform = 'translateX('+ (- size * count) +'px)'
 
-// Set Images
+btnNext.addEventListener('click', nextImage)
+btnPrev.addEventListener('click', prevImage)
 
-var imgOne = document.querySelector('#img-one').value
-var imgTwo = document.querySelector('#img-two')
-var imgThree = document.querySelector('#img-three')
-var imgFour = document.querySelector('#img-four')
+function nextImage() {
+    
+    carouselSlide.style.transition = 'transform .7s ease'
+    count++
+    carouselSlide.style.transform = 'translateX('+ (- size * count) +'px)'
 
-images[0] = imgOne
-images[1] = imgTwo
-images[2] = imgThree
-images[3] = imgFour
-
-console.log(images[1])
-
-function prevImg() {
-
-    if(images.length > 0) {
-        i--
-    } else {
-        return null
-    }
 }
 
-function nextImg() {
+function prevImage() {
 
-    if (images.length < 4) {
-        i++
-    } else {
-        return null
-    }
+    carouselSlide.style.transition = 'transform .7s ease'
+    count--
+    carouselSlide.style.transform = 'translateX('+ (- size * count) +'px)'
+
 }
 
-   // boxSlide.innerHTML = images[i]
+carouselSlide.addEventListener('transitionend', stopTransition)
+
+function stopTransition() {
+    
+    if (carouselImages[count].id === 'lastImg') {
+
+        carouselSlide.style.transition = 'none'
+        count = carouselImages.length -2
+        carouselSlide.style.transform = 'translateX('+ (- size * count) +'px)'
+        
+    }
+
+    if (carouselImages[count].id === 'firstImg') {
+
+        carouselSlide.style.transition = 'none'
+        count = carouselImages.length - 2
+        carouselSlide.style.transform = 'translateX('+ (- size * count) +'px)'
+        
+    }
+
+}

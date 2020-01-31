@@ -10,3 +10,7 @@
 8. Barras de Progresso
 9. Scrollspy
 10. Popovers
+11. Slide automático e com marcadores
+
+--> Correções e melhorias
+1. Colocar Transition no menu mobile
