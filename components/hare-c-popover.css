@@ -1,9 +1,11 @@
 /* 
- * Hare UI v.1.0 (https://harecss.com/)
+ * Hare UI v.1.0.0 (https://harecss.com/)
  * Copyright 2020
  * Open Source Project
  * Licensed under MIT
  */
+
+ /* Com Popover (Rascunho) */
 
 /* Global Tipography */
 
@@ -23,63 +25,63 @@ ul li a  {
 
 /**** Background Colors ****/
 
-.black, .bg-black {
+.black, .bg-black, .btn-black {
     background: black;
 }
 
-.blue, .bg-blue {
+.blue, .bg-blue, .btn-blue {
     background: #0000ff;
 }
 
-.cyan, .bg-cyan {
+.cyan, .bg-cyan, .btn-cyan {
     background: #1cbbbb;
 }
 
-.dark, .bg-dark {
+.dark, .bg-dark, .btn-dark {
     background: #343a40;
 }
 
-.gray, .bg-gray {
+.gray, .bg-gray, .btn-gray {
     background: #808080;
 }
 
-.green, .bg-green {
+.green, .bg-green, .btn-green {
     background: #008000;
 }
 
-.indigo, .bg-indigo {
+.indigo, .bg-indigo, .btn-indigo {
     background: #4b0082;
 }
 
-.light, .bg-light {
+.light, .bg-light, .btn-light {
     background: #f8f9fa;
 }
 
-.orange, .bg-orange {
+.orange, .bg-orange, .btn-orange {
     background: #ffa500;
 }
 
-.pink, .bg-pink {
+.pink, .bg-pink, .btn-pink {
     background: #ffc0cb;
 }
 
-.purple, .bg-purple {
+.purple, .bg-purple, .btn-purple {
     background: #800080;
 }
 
-.red, .bg-red {
+.red, .bg-red, .btn-red {
     background: #df2222;
 }
 
-.teal, .bg-teal {
+.teal, .bg-teal, .btn-teal {
     background: #008080;
 }
 
-.white, .bg-white {
+.white, .bg-white, .btn-white {
     background: #fff;
 }
 
-.yellow, .bg-yellow {
+.yellow, .bg-yellow, .btn-yellow {
     background: #e0e00f;
 }
 
@@ -162,7 +164,7 @@ ul li a  {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.times {
+.times-new-roman {
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -339,6 +341,9 @@ ul li a  {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
 }
 
+.txt-shadow-white {
+    text-shadow: 1px 1px 1px rgba(255, 255, 255);
+}
 
 /** Text Align **/
 
@@ -445,6 +450,7 @@ ul li a  {
     align-items: center;
 }
 
+
 /* Align Content */
 
 .ac-start {
@@ -495,6 +501,10 @@ ul li a  {
 
 .as-stretch {
     align-self: stretch;
+}
+
+.box {
+    padding: 0.7rem;
 }
 
 
@@ -552,104 +562,105 @@ ul li a  {
 
 }
 
-/*** Grid  ***/
+/* Columns */
 
-.row {
-    display: flex;
-    flex-wrap: nowrap;
-}
+/* Mobile */
 
-/** Medium and Large **/
+@media (max-width: 576px) {
 
-@media (min-width: 577px) {
-
-    .lg-1, .lg-2, .lg-3, .lg-4, .lg-5, .lg-6, .lg-7, .lg-8, .lg-9, .lg-10, .lg-11, .lg-12 {
-        padding: .2rem .4rem;
-    }
-
-    .lg-1 {
-        width: 8.33%;
-    }
-    
-    .lg-2 {
+    .col, .col-1 {
+        padding: 0.4rem;
         width: 16.66%;
     }
     
-    .lg-3 {
-        width: 25%;
-    }
-    
-    .lg-4 {
+    .col-2 {
+        padding: 0.4rem;
         width: 33.33%;
     }
     
-    .lg-5 {
-        width: 41.66%;
-    }
-    
-    .lg-6 {
+    .col-3 {
+        padding: 0.4rem;
         width: 50%;
     }
     
-    .lg-7 {
-        width: 58.33%;
-    }
-    
-    .lg-8 {
+    .col-4 {
+        padding: 0.4rem;
         width: 66.66%;
     }
     
-    .lg-9 {
-        width: 75%;
-    }
-    
-    .lg-10 {
+    .col-5 {
+        padding: 0.4rem;
         width: 83.33%;
     }
     
-    .lg-11 {
-        width: 91.66%;
-    }
-    
-    .lg-12 {
+    .col-6 {
+        padding: 0.4rem;
         width: 100%;
     }
 
 }
 
-/* Columns (Smartphones) */
+/* Medium and Large */
 
-@media (max-width: 576px) {
+@media (min-width: 577px) {
 
-    .row {
-        flex-wrap: wrap;
+    .col, .col-1 {
+        padding: 0.4rem;
+        width: 8.33%;
     }
-
-    .sm-1, .sm-2, .sm-3, .sm-4, .sm-5, .sm-6 {
-        padding: .1rem .2rem;
-    }
-
-    .sm-1 {
+    
+    .col-2 {
+        padding: 0.4rem;
         width: 16.66%;
     }
     
-    .sm-2 {
+    .col-3 {
+        padding: 0.4rem;
+        width: 25%;
+    }
+    
+    .col-4 {
+        padding: 0.4rem;
         width: 33.33%;
     }
     
-    .sm-3 {
+    .col-5 {
+        padding: 0.4rem;
+        width: 41.66%;
+    }
+    
+    .col-6 {
+        padding: 0.4rem;
         width: 50%;
     }
     
-    .sm-4 {
+    .col-7 {
+        padding: 0.4rem;
+        width: 58.33%;
+    }
+    
+    .col-8 {
+        padding: 0.4rem;
         width: 66.66%;
     }
     
-    .sm-5 {
+    .col-9 {
+        padding: 0.4rem;
+        width: 75%;
+    }
+    
+    .col-10 {
+        padding: 0.4rem;
         width: 83.33%;
     }
     
-    .sm-6 {
+    .col-11 {
+        padding: 0.4rem;
+        width: 91.66%;
+    }
+    
+    .col-12 {
+        padding: 0.4rem;
         width: 100%;
     }
 
@@ -785,7 +796,7 @@ ul li a  {
     margin-left: 5rem;
 }
 
-/* Paddings */
+/* Padding */
 
 .p-0 {
     padding: 0;
@@ -1129,6 +1140,7 @@ ul li a  {
     cursor: pointer;
     line-height: 1.4;
     font-size: 1.1rem;
+    font-weight: 600;
     padding: 0.4rem 0.8rem;
     margin: .25rem;
     transition: all .2s ease-in-out;
@@ -1707,13 +1719,31 @@ th {
     position: absolute;
     margin: .7rem;
     display: none;
+    z-index: 500;
 }
 
 .alert span {
     text-shadow: 1px 1px #343a4096;
 }
 
-/* Slide Show */
+/*** Popovers ***/
+
+.popover {
+    position: relative;
+    top: -85px;
+    right: -40px;
+    padding: .4rem .5rem;
+    max-width: 180px;
+    box-shadow: .2rem .5rem 1.3rem rgba(0, 0, 0, 0.25);
+    border: 1px solid rgba(128, 128, 128, 0.7);
+    color: whitesmoke;
+    transition: all .3s;
+    z-index: 500;
+    display: none;
+}
+
+
+/*** Slide Show ***/
 
 .carousel-container {
     display: flex;
