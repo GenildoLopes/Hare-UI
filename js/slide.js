@@ -1,8 +1,8 @@
-// Hare UI v.1.0.0
+// Hare UI v.1.0
 // Slide Show
 
-const carouselSlide = document.querySelector('.carousel-slide')
-const carouselImages = document.querySelectorAll('.carousel-slide img')
+const carouselSlide = document.querySelector('.imgs-slide')
+const carouselImages = document.querySelectorAll('.imgs-slide img')
 
 // Buttons
 const btnPrev = document.querySelector('#btn-prev')

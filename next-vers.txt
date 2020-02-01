@@ -1,16 +1,17 @@
---> Plano de Recursos para a vers. 1.1
+﻿--> Plano de Recursos para a vers. 1.1
 
 1. Vers. em SASS
-2. Gradientes
+2. Mais posições dentro do Navbar
 3. Classes de números no Font Weight
-4. Mais tamanhos de botões
+4. Slide automático e com marcadores
 5. Mais cores de tabelas
 6. Breadcrumb
 7. Collapse
 8. Barras de Progresso
 9. Scrollspy
 10. Popovers
-11. Slide automático e com marcadores
+11. Slide
+12. Gradientes
 
 --> Correções e melhorias
-1. Colocar Transition no menu mobile
+1. Colocar Transitions nos itens que estão faltando

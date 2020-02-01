@@ -1,4 +1,4 @@
-// Hare UI v.1.0.0
+// Hare UI v.1.0
 // MENU MOBILE
 
 const toggleNavList = document.getElementById('toggle-menu');
@@ -10,5 +10,5 @@ const navList = document.querySelector('.nav-list');
 
 function toggleMenu() {
     navList.classList.toggle('toggle-list')
-    navBrand.classList.toggle('d-none')    
+    navBrand.classList.toggle('d-none')  
 }

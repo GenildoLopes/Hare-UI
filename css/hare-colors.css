@@ -544,34 +544,34 @@
 
 /* Bootstrap Tones */
 
-.primary .bg-primary .btn-primary {
+.primary {
     background: #007bff;
 }
 
-.secondary, .bg-secondary, .btn-secondary {
+.secondary {
     background: #6c757d;
 }
 
-.success, .bg-success, .btn-success {
+.success {
     background: #28a745;
 }
 
-.info, .bg-info, .btn-info {
+.info {
     background: #17a2b8;
 }
 
-.warning, .bg-warning, .btn-warning {
+.warning {
     background: #ffc107;
 }
 
-.danger, .bg-danger, .btn-danger {
+.danger {
     background: #dc3545;
 }
 
-.light, .bg-light, .btn-light {
+.light {
     background: #f8f9fa;
 }
 
-.dark, .bg-dark, .btn-dark {
+.dark {
     background: #343a40;
 }
