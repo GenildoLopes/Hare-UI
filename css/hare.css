@@ -1450,8 +1450,8 @@ ul li a  {
 
 /* Border None */
 
-.border-none {
-    border: none;
+.border-0 {
+    border: 0;
 }
 
 /* Border Radius */
@@ -1510,14 +1510,14 @@ ul li a  {
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
-    right: 1.2rem;
     background: transparent;
 }
 
-#toggle-menu {
+.menu-toggle {
+    position: absolute;
+    right: 1.2rem;
     cursor: pointer;
-    height: 36px;
+    min-height: 36px;
 }
 
 /* Nav List */
@@ -1549,12 +1549,20 @@ ul li a  {
     text-decoration: underline;
 }
 
+@media (min-width: 768px){
+
+    #close-menu {
+        display: none;
+    }
+
+}
+
 /** Menu Mobile **/
 
 @media (max-width: 768px){
 
     .navbox {
-        min-height: 52px;
+        min-height: 57px;
         padding: 0;
     }
 
@@ -1562,16 +1570,18 @@ ul li a  {
 
     .nav-list {
         background: inherit;
-        position: absolute;
-        top: 2.9rem;
-        right: 0;
+        position: relative;
         width: 100%;
         height: 100vh;
-        z-index: 270;
+        z-index: 300;
         display: none;
     }
 
-    .toggle-list {
+    .nav-list ul {
+        margin-top: 2.5rem;
+    }
+
+    .list-block {
         display: block;
     }
 
@@ -1580,6 +1590,12 @@ ul li a  {
         line-height: 3;
         text-align: center;
     }
+
+    #close-menu {
+        margin-top: 1rem;
+        margin-left: .8rem;
+    }
+    
 
 }
 
@@ -1773,5 +1789,99 @@ th {
 .alert span {
     text-shadow: 1px 1px #343a4096;
 }
+
+/*** Inputs  ***/
+
+input[type="email"],
+input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="url"], input[type="week"], input[type="month"] {
+    background: inherit;
+    border: none;
+    border-bottom: 2px solid;
+    color: #615d5d;
+    font-size: 1.12rem;
+    margin: 1rem;
+    min-height: 1.5rem;
+    padding: .3rem .7rem;
+    text-align: center;
+}
+
+/*** Form ***/
+
+.box-form {
+    width: 40vh;
+    background: rgb(240, 236, 236);
+    padding: 1rem;
+    border-radius: 15px;
+    border: 1px solid blueviolet;
+}
+
+.box-form span {
+    color: rgb(35, 105, 35);
+    display: flex;
+    justify-content: center;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+/** Colors **/
+
+.form-blue {
+    border-color: #1010d8 !important;
+}
+
+.form-cyan {
+    border-color: #1cbbbb !important;
+}
+
+.form-dark {
+    border-color: #343a40 !important;
+}
+
+.form-gray {
+    border-color: #808080 !important;
+}
+
+.form-green {
+    border-color: #008000 !important;
+}
+
+.form-indigo {
+    border-color: #4b0082 !important;
+}
+
+.form-light {
+    border-color: #f8f9fa !important;
+}
+
+.form-pink {
+    border-color:  pink !important;
+}
+
+.form-purple {
+    border-color: purple !important;
+}
+
+.form-red {
+    border-color: #df2222 !important;
+}
+
+.form-teal {
+    border-color: teal !important;
+}
+
+.form-white {
+    border-color:  white !important;
+}
+
+.form-yellow {
+    border-color: #e0e00f !important;
+} 
 
 /* End */

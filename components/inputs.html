@@ -4,60 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Inputs</title>
+    <title>Forms and inputs</title>
     <!-- CSS -->
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="hare.css">
-    <link rel="stylesheet" href="hare-colors.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/hare.css">
     <style>
-        input[type="email"],
-        input[type="password"] {
-            border-color: rgba(38, 128, 50, 0.8);
-            border-radius: .3rem;
-            color: grey;
-            margin: 1rem;
-            min-height: 1.5rem;
+        body {
+            display: flex;
+            justify-content: center;
+            font-size: 2rem;
+            padding: 3rem;
         }
-
-        .input {
-            border-color: rgba(84, 38, 128, 0.7);
-            border-radius: .3rem;
-            color: grey;
-            margin: 1rem;
-            min-height: 1.5rem;
-        }
-
     </style>
+        <!-- .box-form {
+            width: 40vh;
+            background: rgb(240, 236, 236);
+            padding: 1rem;
+            border-radius: 15px;
+            border: 1px solid blueviolet;
+        }
+
+        .box-form span {
+            color: rgb(35, 105, 35);
+            display: flex;
+            justify-content: center;
+            font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+            font-size: 1.7rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+        }
+
+        .form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        input[type="email"],
+        input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="url"], input[type="week"], input[type="month"] {
+            background: inherit;
+            border: none;
+            border-bottom: 2px solid slateblue;
+            color: #615d5d;
+            font-size: 1.12rem;
+            margin: 1rem;
+            min-height: 1.5rem;
+            padding: .3rem .7rem;
+            text-align: center;
+        } -->
 
 </head>
 <body>
-    <form action="" class="form">
 
-        <input type="checkbox" class="input checkbox" name="" id="">
-        <input type="color" class="input" name="" id="">
-        <input type="date" class="input" name="" id="">
-        <input type="datetime" class="input" name="" id="">
-        <input type="datetime-local" class="input" name="" id="">
-        <input type="email" name="" id="">
-        <input type="file" class="btn blue" name="" id="">
-        <input type="hidden" name="">
-        <input type="image" src="love-96.png" alt="">
-        <input type="month" class="input" name="" id="">
-        <input type="number" class="input" name="" id="">
-        <input type="password"  name="" id="">
-        <input type="radio" class="input" name="" id="">
-        <input type="range" class="input" name="" id="">
-        <input type="reset" class="btn blue" value="Reset">
-        <input type="search" class="input" name="" id="">
-        <input type="submit" class="btn green" value="Submit">
-        <input type="tel" class="input" name="" id="">
-        <input type="text" class="input text">
-        <input type="time" class="input" name="" id="">
-        <input type="url" class="input" name="" id="">
-        <input type="week" class="input" name="" id="">
-        <!-- <input type="text" class="input" name="" id=""> -->
-
-    </form>
+    <!-- Form Example -->
+    <div class="box-form">
+        <span>Form</span>
+        <form class="form" action="">
+            <!-- Email -->
+            <input type="email" class="form-teal" placeholder="Email" name="" id="">
+            <!-- Password -->
+            <input type="password" placeholder="Senha" class="form-yellow" id="">
+        </form>
+    </div>
     
 </body>
 </html>
+
+
+
+
+
+
+
