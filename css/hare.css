@@ -11,6 +11,8 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 1.1rem;
     font-weight: 600;
+    overflow-x: hidden;
+    color: #343a40;
 }
 
 ul li {
@@ -19,6 +21,20 @@ ul li {
 
 ul li a  {
     text-decoration: none;
+}
+
+/** Links **/
+
+a {
+    color: cyan;
+}
+
+a:hover{
+    opacity: .7;
+}
+
+.active {
+    opacity: .75;
 }
 
 /*** Background Colors ***/
@@ -999,7 +1015,7 @@ h1, h2, h3, h4, h5, h6 {
         margin: 5rem;
     }
 
-/** Margin Top **/
+    /** Margin Top **/
 
     .mt-0 {
         margin-top: 0;
@@ -1025,7 +1041,29 @@ h1, h2, h3, h4, h5, h6 {
         margin-top: 5rem;
     }
 
-/** Margin Right **/
+    /* Percentage */
+
+    .mt-10 {
+        margin-top: 10%;
+    }
+
+    .mt-15 {
+        margin-top: 15%;
+    }
+
+    .mt-20 {
+        margin-top: 20%;
+    }
+
+    .mt-25 {
+        margin-top: 25%;
+    }
+
+    .mt-30 {
+        margin-top: 30%;
+    }
+
+    /** Margin Right **/
 
     .mr-0 {
         margin-right: 0;
@@ -1051,7 +1089,29 @@ h1, h2, h3, h4, h5, h6 {
         margin-right: 5rem;
     }
 
-/* Margin Bottom */
+    /* Percentage */
+
+    .mr-10 {
+        margin-right: 10%;
+    }
+
+    .mr-15 {
+        margin-right: 15%;
+    }
+
+    .mr-20 {
+        margin-right: 20%;
+    }
+
+    .mr-25 {
+        margin-right: 25%;
+    }
+
+    .mr-30 {
+        margin-right: 30%;
+    }
+
+    /* Margin Bottom */
 
     .mb-0 {
         margin-bottom: 0;
@@ -1077,7 +1137,29 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 5rem;
     }
 
-/* Margin Left */
+    /* Percentage */
+
+    .mb-10 {
+        margin-bottom: 10%;
+    }
+
+    .mb-15 {
+        margin-bottom: 15%;
+    }
+
+    .mb-20 {
+        margin-bottom: 20%;
+    }
+
+    .mb-25 {
+        margin-bottom: 25%;
+    }
+
+    .mb-30 {
+        margin-bottom: 30%;
+    }
+
+    /* Margin Left */
 
     .ml-0 {
         margin-left: 0;
@@ -1101,6 +1183,28 @@ h1, h2, h3, h4, h5, h6 {
 
     .ml-5 {
         margin-left: 5rem;
+    }
+
+    /* Percentage */
+
+    .ml-10 {
+        margin-left: 10%;
+    }
+
+    .ml-15 {
+        margin-left: 15%;
+    }
+
+    .ml-20 {
+        margin-left: 20%;
+    }
+
+    .ml-25 {
+        margin-left: 25%;
+    }
+
+    .ml-30 {
+        margin-left: 30%;
     }
 }
 
@@ -2012,7 +2116,7 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: space-between;
     align-items: center;
     position: relative;
-    z-index: 199;
+    z-index: 200;
     transition: all .5s ease !important;
 }
 
