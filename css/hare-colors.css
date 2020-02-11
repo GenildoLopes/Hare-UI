@@ -541,37 +541,3 @@
 .dark-slate-gray {
     background: darkslategray;
 }
-
-/* Bootstrap Tones */
-
-.primary {
-    background: #007bff;
-}
-
-.secondary {
-    background: #6c757d;
-}
-
-.success {
-    background: #28a745;
-}
-
-.info {
-    background: #17a2b8;
-}
-
-.warning {
-    background: #ffc107;
-}
-
-.danger {
-    background: #dc3545;
-}
-
-.light {
-    background: #f8f9fa;
-}
-
-.dark {
-    background: #343a40;
-}

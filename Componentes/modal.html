@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Modal</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/hare.css">
+    <link rel="stylesheet" href="../css/hare-colors.css">
+
+    <style>
+        .navbox {
+            min-height: 50px;
+        }
+        
+    </style>
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <script defer src="../js/modal.js"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbox nav-fixed gray">
+        <!-- Brand -->
+        <a href="#" class="nav-brand" id="brand">Modal</a>
+
+        <!-- Btn Open Modal -->
+        <button data-modal-target="#modal" class="btn blue" id="open-modal">Open Modal</button>
+    </nav>
+
+    <!-- Tests -->
+    <div class="w-40 p-1 m-4 br-2 border-gray">
+        <p class="txt-gray">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore alias dignissimos sunt earum mollitia,harum iusto eos nam aspernatur, ut voluptates nihil facilis cupiditate, aliquam quibusdam repellendus exercitationem officia quo!
+        </p>
+    </div>
+
+    <!-- MODAL -->
+    <!-- <div class="modal" id="modal">
+        <div class="modal-head">
+            <span>Title</span>
+
+             Btn Close Modal
+            <img src="../imgs/close.png" id="close-modal" alt="" data-close-button>
+
+        </div>
+
+        <div class="modal-body">
+         ... Content
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo assumenda amet accusamus quod aut magnam distinctio id vitae. Reprehenderit voluptas sapiente dicta incidunt ipsum atque, at non corporis nulla ullam!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur illum error minima ducimus officiis quam reiciendi.
+        </div>
+    
+        <div class="modal-foot">
+            <button class="btn red" id="cancel-modal" data-close-button>Cancel</button>
+            <button class="btn green" type="submit">Save</button>
+        </div>
+    </div> -->
+
+    <!-- Overlay -->
+    <div id="overlay"></div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+

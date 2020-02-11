@@ -1,0 +1,22 @@
+﻿--> Plano de Recursos para a vers. 1.1
+
+1. Vers. em SASS
+2. Mais posições dentro do Navbar
+3. Classes de números no Font Weight
+4. Slide Show
+5. Mais cores de tabelas
+6. Breadcrumb
+7. Collapse
+8. Barras de Progresso
+9. Scrollspy
+10. Popovers
+11. Slide
+12. Check List Itens
+13. Tamanhos variados de imputs (type lines)
+14. Gradientes
+15. Social Icons Box
+
+// End
+
+--> Correções e melhorias
+1. Colocar Transitions nos itens que estão faltando

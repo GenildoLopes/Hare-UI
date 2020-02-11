@@ -3,7 +3,7 @@
 // Alerts
 
 const alertShoot = document.getElementById('alert-shoot')
-const alertBox = document.getElementById('alert-box')
+const alertBox = document.querySelector('.alert')
 
     alertShoot.addEventListener('click', openAlert)
     alertBox.addEventListener('click', closeAlert)

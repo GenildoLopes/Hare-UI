@@ -26,7 +26,7 @@ ul li a  {
 /** Links **/
 
 a {
-    color: cyan;
+    color: #1fcccc;
 }
 
 a:hover{
@@ -37,140 +37,9 @@ a:hover{
     opacity: .75;
 }
 
-/*** Background Colors ***/
-
-.black {
-    background: black;
+.nav-link {
+    color: cyan;
 }
-
-.blue {
-    background: #1010d8;
-}
-
-.cyan {
-    background: #1cbbbb;
-}
-
-.dark {
-    background: #343a40;
-}
-
-.gray {
-    background: #808080;
-}
-
-.green {
-    background: #008000;
-}
-
-.indigo {
-    background: #4b0082;
-}
-
-.light {
-    background: #f8f9fa;
-}
-
-.orange {
-    background: #ffa500;
-}
-
-.pink {
-    background: #ffc0cb;
-}
-
-.purple {
-    background: #800080;
-}
-
-.red {
-    background: #df2222;
-}
-
-.teal {
-    background: #008080;
-}
-
-.white {
-    background: #fff;
-}
-
-.yellow {
-    background: #e0e00f;
-}
-
-/* Outhers */
-
-.bg-inherit {
-    background: inherit;
-}
-
-.bg-none {
-    background: none;
-}
-
-/**** Colors ****/
-
-.txt-black {
-    color: black;
-}
-
-.txt-blue {
-    color: #1010d8;
-}
-
-.txt-cyan {
-    color: #1cbbbb;
-}
-
-.txt-dark {
-    color: #343a40;
-}
-
-.txt-gray {
-    color: gray;
-}
-
-.txt-green {
-    color: green;
-}
-
-.txt-indigo {
-    color: indigo;
-}
-
-.txt-light {
-    color: #f8f9fa;
-}
-
-.txt-orange {
-    color: orange;
-}
-
-.txt-pink {
-    color: pink;
-}
-
-.txt-purple {
-    color: purple;
-}
-
-.txt-red {
-    color: #df2222;
-}
-
-.txt-teal {
-    color: teal;
-}
-
-.txt-white {
-    color: white;
-}
-
-.txt-yellow {
-    color: #e0e00f;
-}
-
 
 /*** Font Family ***/
 
@@ -2105,10 +1974,6 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 2rem;
 }
 
-.circle {
-    border-radius: 50%;
-}
-
 /*** Navbar ***/
 
 .navbox {
@@ -2559,6 +2424,140 @@ input[type="password"], input[type="search"], input[type="tel"], input[type="tex
         max-width: 70%;
     }
 
+}
+
+/*** Background Colors ***/
+
+.black {
+    background: black !important;
+}
+
+.blue {
+    background: #1010d8 !important;
+}
+
+.cyan {
+    background: #1cbbbb !important;
+}
+
+.dark {
+    background: #343a40 !important;
+}
+
+.gray {
+    background: #808080 !important;
+}
+
+.green {
+    background: #008000 !important;
+}
+
+.indigo {
+    background: #4b0082 !important;
+}
+
+.light {
+    background: #f8f9fa !important;
+}
+
+.orange {
+    background: #ffa500 !important;
+}
+
+.pink {
+    background: #ffc0cb!important;
+}
+
+.purple {
+    background: #800080 !important;
+}
+
+.red {
+    background: #df2222 !important;
+}
+
+.teal {
+    background: #008080 !important;
+}
+
+.white {
+    background: #fff !important;
+}
+
+.yellow {
+    background: #e0e00f !important;
+}
+
+/* Outhers */
+
+.bg-inherit {
+    background: inherit !important;
+}
+
+.bg-none {
+    background: none !important;
+}
+
+/*** Text Colors ***/
+
+.tc-black {
+    color: black !important;
+}
+
+.tc-blue {
+    color: #1010d8 !important;
+}
+
+.tc-cyan {
+    color: #1cbbbb !important;
+}
+
+.tc-dark {
+    color: #343a40 !important;
+}
+
+.tc-gray {
+    color: gray !important;
+}
+
+.tc-green {
+    color: green !important;
+}
+
+.tc-indigo {
+    color: indigo !important;
+}
+
+.tc-light {
+    color: #f8f9fa !important;
+}
+
+.tc-orange {
+    color: orange !important;
+}
+
+.tc-pink {
+    color: pink !important;
+}
+
+.tc-purple {
+    color: purple !important;
+}
+
+.tc-red {
+    color: #df2222 !important;
+}
+
+.tc-teal {
+    color: teal !important;
+}
+
+.tc-white {
+    color: white !important;
+}
+
+.tc-yellow {
+    color: #e0e00f !important;
 }
 
 /* End */
