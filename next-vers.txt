@@ -18,8 +18,4 @@
 16. Margens grandes para breakpoints específicos
 17. Classe com Border-Radius de 50%
 18. Menu Drop Down
-
-// End
-
---> Correções e melhorias
-1. Colocar Transitions nos itens que estão faltando
+19. Modal
