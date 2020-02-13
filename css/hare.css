@@ -2044,7 +2044,7 @@ th {
     color: black;
 }
 
-/*** Inputs  ***/
+/*** Inputs (Texts) ***/
 
 input[type="email"],
 input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="url"], input[type="week"], input[type="month"] {
@@ -2052,89 +2052,81 @@ input[type="password"], input[type="search"], input[type="tel"], input[type="tex
     border: none;
     border-bottom: 2px solid;
     color: #615d5d;
-    font-size: 1.12rem;
+    font-size: 1rem;
     margin: 1rem;
     min-height: 1.5rem;
     padding: .3rem .7rem;
-    text-align: center;
 }
 
 /*** Form ***/
 
-.box-form {
-    width: 40vh;
-    background: rgb(240, 236, 236);
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     padding: 1rem;
     border-radius: 15px;
-    border: 1px solid blueviolet;
 }
 
-.box-form span {
-    color: rgb(35, 105, 35);
-    display: flex;
-    justify-content: center;
+.form span {
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     font-size: 1.7rem;
     font-weight: 600;
     margin-bottom: 1.5rem;
-}
-
-.form {
-    display: flex;
-    flex-direction: column;
+    text-align: center;
 }
 
 /** Colors **/
 
-.form-blue {
+.input-blue {
     border-color: #1010d8 !important;
 }
 
-.form-cyan {
+.input-cyan {
     border-color: #1cbbbb !important;
 }
 
-.form-dark {
+.input-dark {
     border-color: #343a40 !important;
 }
 
-.form-gray {
+.input-gray {
     border-color: #808080 !important;
 }
 
-.form-green {
+.input-green {
     border-color: #008000 !important;
 }
 
-.form-indigo {
+.input-indigo {
     border-color: #4b0082 !important;
 }
 
-.form-light {
+.input-light {
     border-color: #f8f9fa !important;
 }
 
-.form-pink {
+.input-pink {
     border-color:  pink !important;
 }
 
-.form-purple {
+.input-purple {
     border-color: purple !important;
 }
 
-.form-red {
+.input-red {
     border-color: #df2222 !important;
 }
 
-.form-teal {
+.input-teal {
     border-color: teal !important;
 }
 
-.form-white {
+.input-white {
     border-color:  white !important;
 }
 
-.form-yellow {
+.input-yellow {
     border-color: #e0e00f !important;
 } 
 
