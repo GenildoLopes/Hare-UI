@@ -756,26 +756,24 @@ h1, h2, h3, h4, h5, h6 {
         margin-top: 5rem;
     }
 
-    /* Percentage */
-
     .mt-10 {
-        margin-top: 10%;
+        margin-top: 10rem;
     }
 
     .mt-15 {
-        margin-top: 15%;
+        margin-top: 15rem;
     }
 
     .mt-20 {
-        margin-top: 20%;
+        margin-top: 10rem;
     }
 
     .mt-25 {
-        margin-top: 25%;
+        margin-top: 15rem;
     }
 
     .mt-30 {
-        margin-top: 30%;
+        margin-top: 30rem;
     }
 
     /** Margin Right **/
@@ -804,26 +802,24 @@ h1, h2, h3, h4, h5, h6 {
         margin-right: 5rem;
     }
 
-    /* Percentage */
-
     .mr-10 {
-        margin-right: 10%;
+        margin-right: 10rem;
     }
 
     .mr-15 {
-        margin-right: 15%;
+        margin-right: 15rem;
     }
 
     .mr-20 {
-        margin-right: 20%;
+        margin-right: 20rem;
     }
 
     .mr-25 {
-        margin-right: 25%;
+        margin-right: 25rem;
     }
 
     .mr-30 {
-        margin-right: 30%;
+        margin-right: 30rem;
     }
 
     /* Margin Bottom */
@@ -852,26 +848,24 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 5rem;
     }
 
-    /* Percentage */
-
     .mb-10 {
-        margin-bottom: 10%;
+        margin-bottom: 10rem;
     }
 
     .mb-15 {
-        margin-bottom: 15%;
+        margin-bottom: 15rem;
     }
 
     .mb-20 {
-        margin-bottom: 20%;
+        margin-bottom: 20rem;
     }
 
     .mb-25 {
-        margin-bottom: 25%;
+        margin-bottom: 25rem;
     }
 
     .mb-30 {
-        margin-bottom: 30%;
+        margin-bottom: 30rem;
     }
 
     /* Margin Left */
@@ -900,26 +894,24 @@ h1, h2, h3, h4, h5, h6 {
         margin-left: 5rem;
     }
 
-    /* Percentage */
-
     .ml-10 {
-        margin-left: 10%;
+        margin-left: 10rem;
     }
 
     .ml-15 {
-        margin-left: 15%;
+        margin-left: 15rem;
     }
 
     .ml-20 {
-        margin-left: 20%;
+        margin-left: 20rem;
     }
 
     .ml-25 {
-        margin-left: 25%;
+        margin-left: 25rem;
     }
 
     .ml-30 {
-        margin-left: 30%;
+        margin-left: 30rem;
     }
 }
 
@@ -1986,7 +1978,7 @@ table td {
 caption {
     font-size: 2rem;
     margin: 1rem;
-    color: white;
+    color: #343a40
 }
 
 th, td {
@@ -2016,7 +2008,7 @@ th {
 /*** Striped ***/
 
 .striped tbody tr:nth-child(odd){
-    background: gainsboro;
+    background: gainsboro !important;
 }
 
 .striped tbody tr:nth-child(even){
@@ -2307,4 +2299,4 @@ input[type="password"], input[type="search"], input[type="tel"], input[type="tex
     color: #e0e00f !important;
 }
 
-/* End */
+/* End 
