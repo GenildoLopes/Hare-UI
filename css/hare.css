@@ -1830,9 +1830,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-brand {
-    color: white;
-    font-size: 1.4rem;
-    font-weight: 600;
     margin-left: 1.15rem;
     text-decoration: none;
 }
@@ -1844,12 +1841,6 @@ h1, h2, h3, h4, h5, h6 {
     background: transparent;
 }
 
-.menu-toggle {
-    position: absolute;
-    right: 1.2rem;
-    cursor: pointer;
-    min-height: 36px;
-}
 
 /* Nav List */
 
@@ -1881,16 +1872,6 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: underline;
 }
 
-/* Medium and Large */
-
-@media (min-width: 768px){
-
-    #close-menu {
-        display: none;
-    }
-
-}
-
 /** Menu Mobile **/
 
 @media (max-width: 768px){
@@ -1903,34 +1884,30 @@ h1, h2, h3, h4, h5, h6 {
     /* NavBox List */
 
     .nav-list {
+        position: absolute;
+        top: 0;
+        right: -100%;
         background: inherit;
-        position: relative;
         width: 100%;
         height: 100vh;
-        z-index: 300;
-        display: none;
+        transition: all .6s;
+        z-index: 400;
     }
 
     .nav-list ul {
         margin-top: 2.5rem;
-    }
-
-    .list-block {
-        display: block;
-    }
-
-    .nav-list ul {
         display: block;
         line-height: 3;
         text-align: center;
     }
 
-    #close-menu {
-        margin-top: 1rem;
-        margin-left: .8rem;
+    /* Btn Open */
+    .open-menu {
+        position: absolute;
+        right: 1.2rem;
+        cursor: pointer;
+        min-height: 36px;
     }
-    
-
 }
 
 @media (min-width: 768.1px){
