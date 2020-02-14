@@ -37,8 +37,8 @@ a:hover{
     opacity: .75;
 }
 
-.nav-link {
-    color: cyan;
+.disabled {
+    opacity: .6;
 }
 
 /*** Font Family ***/
