@@ -326,7 +326,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Direction Medium */
 
-@media (min-width: 577px) and (max-width: 992px){
+@media (min-width: 576.1px) and (max-width: 992px){
 
 
     .fd-md-row {
@@ -508,7 +508,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Medium */
 
-@media (min-width: 577px) and (max-width: 992px) {
+@media (min-width: 576.1px) and (max-width: 992px) {
 
     .md-none, .lg-only, .sm-only {
         display: none;
@@ -522,7 +522,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Large */
 
-@media (min-width: 992px) {
+@media (min-width: 992.1px) {
 
     .lg-none, .md-only, .sm-only {
         display: none;
@@ -565,7 +565,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Large */
 
-@media (min-width: 992px) {
+@media (min-width: 992.1px) {
 
     .lg-10 {
         width: 10%;
@@ -609,7 +609,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Medium */
-@media (min-width: 577px) and (max-width: 991px) {
+@media (min-width: 576.1px) and (max-width: 992px) {
 
     .md-10 {
         width: 10%;
@@ -704,7 +704,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /*** Margins (Medium and Large) ***/
 
-@media (min-width: 577px) {
+@media (min-width: 576.1px) {
 
     .m-0 {
         margin: 0;
@@ -1049,7 +1049,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /** Paddings (Medium and Large) **/
 
-@media (min-width: 577px) {
+@media (min-width: 576.1px) {
 
     .p-0 {
         padding: 0;
@@ -1829,11 +1829,6 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
 }
 
-.nav-sticky {
-    position: sticky;
-    width: 100%;
-}
-
 .nav-brand {
     color: white;
     font-size: 1.4rem;
@@ -1885,6 +1880,8 @@ h1, h2, h3, h4, h5, h6 {
     opacity: .8;
     text-decoration: underline;
 }
+
+/* Medium and Large */
 
 @media (min-width: 768px){
 
@@ -2157,6 +2154,7 @@ input[type="password"], input[type="search"], input[type="tel"], input[type="tex
 
 }
 
+/* Medium */
 @media (min-width: 577px) and (max-width: 992px){
 
     .card-item {
