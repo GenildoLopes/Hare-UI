@@ -1,29 +1,22 @@
-// Hare UI v.1.0
-// MENU MOBILE
+// NAV MENU
 
-// Get Btn Open
-const btnOpenMenu = document.getElementById('open-menu')
-// Get Btn Close
-const btnCloseMenu = document.getElementById('close-menu')
+// Get 'Btn Open'
+const openNavList = document.querySelector('#open-menu')
 
-// Add Functions
-btnOpenMenu.addEventListener('click', openMenu)
-btnCloseMenu.addEventListener('click', closeMenu)
-
-// Get Navlist
+// Get List
 const navList = document.querySelector('.nav-list')
-// Get Brand
-const navBrand = document.querySelector('.nav-brand');
 
-// Function for Open Menu
-function openMenu() {
-    navList.classList.add('list-block')
-    navBrand.classList.add('d-none')
-}
+// Function Open
+openNavList.addEventListener('click', ()=> {
 
-// Function for Close Menu
-function closeMenu() {
-    navList.classList.remove('list-block')
-    navBrand.classList.remove('d-none')
-}
+    navList.style.right = '0'
 
+})
+
+// Function Close
+
+navList.addEventListener('click', ()=> {
+
+    navList.style.right = '-100%'
+
+})

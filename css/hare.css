@@ -27,6 +27,7 @@ ul li a  {
 
 a {
     color: #1fcccc;
+    text-decoration: none;
 }
 
 a:hover{
@@ -1820,7 +1821,7 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
     position: relative;
     z-index: 200;
-    transition: all .5s ease !important;
+    transition: all .4s ease !important;
 }
 
 .nav-fixed {
@@ -1890,7 +1891,7 @@ h1, h2, h3, h4, h5, h6 {
         background: inherit;
         width: 100%;
         height: 100vh;
-        transition: all .6s;
+        transition: all .5s;
         z-index: 400;
     }
 
@@ -1925,10 +1926,11 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 10px 20px 1px 10px;
     color: white;
     cursor: pointer;
+    display: none;
     padding: .5rem 1.1rem;
     position: absolute;
     margin: .7rem;
-    display: none;
+    z-index: 500;
 }
 
 /*** Table ***/
@@ -2274,4 +2276,4 @@ input[type="password"], input[type="search"], input[type="tel"], input[type="tex
     color: #e0e00f !important;
 }
 
-/* End 
+/* End-Frame */
