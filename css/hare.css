@@ -415,7 +415,6 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Centralize */
 .centralize {
-    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -1720,7 +1719,7 @@ h1, h2, h3, h4, h5, h6 {
 /*** Borders ***/
 
 .border {
-    border: 1px solid;
+    border: 1px solid silver;
 }
 
 .border-blue {
@@ -1729,6 +1728,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .border-cyan {
     border: 1px solid #1cbbbb;
+}
+
+.border-dark {
+    border: 1px solid #343a40;
 }
 
 .border-gray {
@@ -1741,6 +1744,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .border-indigo {
     border: 1px solid indigo;
+}
+
+.border-light {
+    border: 1px solid #f8f9fa;
 }
 
 .border-orange {
@@ -1769,24 +1776,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .border-yellow {
     border: 1px solid #e0e00f;
-}
-
-/** Border Position **/
-
-.border-top {
-    border-top: 1px solid gray;
-}
-
-.border-right {
-    border-right: 1px solid gray;
-}
-
-.border-bottom {
-    border-bottom: 1px solid gray;
-}
-
-.border-left {
-    border-left: 1px solid gray;
 }
 
 /* Border None */
@@ -1834,14 +1823,6 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: 1.15rem;
     text-decoration: none;
 }
-
-.box-burger {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: transparent;
-}
-
 
 /* Nav List */
 
@@ -1913,24 +1894,10 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (min-width: 768.1px){
 
-    .box-burger {
+    .open-menu {
         display: none;
     }
 
-}
-
-/*** Alerts ***/
-
-.alert {
-    box-shadow: 2px 1px 2px #343a4096;
-    border-radius: 10px 20px 1px 10px;
-    color: white;
-    cursor: pointer;
-    display: none;
-    padding: .5rem 1.1rem;
-    position: absolute;
-    margin: .7rem;
-    z-index: 500;
 }
 
 /*** Table ***/
@@ -1942,19 +1909,18 @@ table {
 }
 
 table th {
-    background: #eee;
+    background: rgb(231, 236, 235);
     border: 1px solid gray;
 }
 
 table td {
-    background: #fff;
     border: 1px solid gray;
 }
 
 caption {
     font-size: 2rem;
     margin: 1rem;
-    color: #343a40
+    color: #343a40;
 }
 
 th, td {
@@ -1967,49 +1933,49 @@ th {
 
 /*** Table Dark ***/
 
-.table-dark {
+.dark-table {
     color: whitesmoke;
 }
 
-.table-dark th {
-    background: #333;
-    border: 1px solid whitesmoke;
+.dark-table th {
+    background: rgb(71, 83, 83);
+    border: 1px solid rgb(133, 127, 127);
 }
 
-.table-dark td {
-    background: #444;
-    border: 1px solid whitesmoke;
+.dark-table td {
+    background: #343a40;
+    border: 1px solid rgb(133, 127, 127);
 }
 
-/*** Striped ***/
+/** Striped **/
 
-.striped tbody tr:nth-child(odd){
-    background: gainsboro !important;
+.striped th {
+    background: rgb(209, 216, 215);
 }
 
 .striped tbody tr:nth-child(even){
+    background: rgb(231, 236, 235);
+}
+
+.striped tbody tr:nth-child(odd){
     background: white;
 }
 
-.striped thead tr {
-    background: white;
+/** Striped Dark **/
+
+.dark-striped th {
+    background: rgb(71, 83, 83);
+    color: whitesmoke;
 }
 
-/** Striped Invert **/
-
-.striped-invert tbody tr:nth-child(odd){
-    background: white;
-    color: black;
+.dark-striped tbody tr:nth-child(odd){
+    background: slategray;
+    color: whitesmoke;
 }
 
-.striped-invert tbody tr:nth-child(even){
-    background: gainsboro;
-
-}
-
-.striped-invert thead tr {
-    background: gainsboro;
-    color: black;
+.dark-striped tbody tr:nth-child(even){
+    background: rgb(71, 83, 83);
+    color: whitesmoke;
 }
 
 /*** Inputs (Texts) ***/
@@ -2275,5 +2241,3 @@ input[type="password"], input[type="search"], input[type="tel"], input[type="tex
 .tc-yellow {
     color: #e0e00f !important;
 }
-
-/* End-Frame */
