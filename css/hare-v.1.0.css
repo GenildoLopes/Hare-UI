@@ -245,19 +245,19 @@ h1, h2, h3, h4, h5, h6 {
 /*** Shadows  ***/
 
 .shadow {
-    box-shadow: .15rem .35rem .9rem rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 3px rgba(44, 42, 42, 0.5);
 }
 
 .shadow-2 {
-    box-shadow: .2rem .5rem 1.3rem rgba(0, 0, 0, 0.25);
+    box-shadow: 3px 3px 4px rgba(44, 42, 42, 0.55);
 }
 
 .shadow-3 {
-    box-shadow: .25rem .65rem 1.7rem rgba(0, 0, 0, 0.3);
+    box-shadow: 3px 3px 5px rgba(44, 42, 42, 0.6);
 }
 
 .shadow-4 {
-    box-shadow: .3rem .8rem 2.1rem rgba(0, 0, 0, 0.35);
+    box-shadow: 4px 4px 6px rgba(44, 42, 42, 0.65);
 }
 
 .shadow-none {
