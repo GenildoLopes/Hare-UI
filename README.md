@@ -1,7 +1,7 @@
 # Hare-CSS
  A simple, powerful and incredibly easy CSS framework
 
-- Downloads: http://harecss.cf
+- Site: https://hareui.netlify.app/
 
 - Tradução:
 Por enquanto a documentação está disponível apenas em português do Brasil. Se você quiser contribuir traduzindo para o Inglês ou Espanhol seria de grande ajuda para a expansão do projeto.
